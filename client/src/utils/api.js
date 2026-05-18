@@ -1,4 +1,5 @@
-const BASE = import.meta.env.VITE_API_URL || "/api";
+const _envUrl = import.meta.env.VITE_API_URL || "";
+const BASE = _envUrl ? (_envUrl.endsWith("/api") ? _envUrl : `${_envUrl}/api`) : "/api";
 
 function getToken() {
   return localStorage.getItem("samex_token");
