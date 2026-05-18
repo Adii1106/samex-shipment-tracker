@@ -1,7 +1,7 @@
 # Samex Shipment Tracker
 
 A full-stack B2B logistics shipment tracking mini-app built with Node.js + Express (backend) and React + Vite (frontend).
-
+- Deployed Link : https://samex-shipment-tracker.vercel.app/
 ---
 
 ## Quick Start
