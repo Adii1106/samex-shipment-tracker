@@ -129,4 +129,16 @@ samex-shipment-tracker/
 
 ## AI Usage Note
 
-I used Gemini as the primary coding assistant throughout this build. AI helped most with: rapidly scaffolding the project architecture, keeping the status-transition state machine consistent between server and client, and establishing a robust React frontend with optimistic UI updates. During setup, we encountered an `EADDRINUSE` port conflict on `5000` (occupied by macOS Control Center / AirPlay), which we quickly debugged and resolved by dynamically mapping the Express server and Vite proxy to port `5001`. I reviewed every generated file for correctness — particularly the auth middleware, state transition logic, and clean codebase separation — before finalizing.
+
+I used AI tools like ChatGPT, Claude, and Antigravity to speed up development, generate ideas, and reduce repetitive setup work during the assignment. Before starting the implementation, I first planned the project structure, API flow, core features, and overall priorities to make sure the application stayed clean, focused, and within the given scope.
+
+### My Development Approach
+
+- First complete the core MVP features end-to-end before adding extra improvements.
+- Focus on functionality, clean code, and proper structure instead of overcomplicating the project.
+- Improve validation, error handling, UI/UX, and performance only after the main workflow was working properly.
+- Keep the codebase minimal and professional with meaningful Git commits, proper folder structure, and only necessary files/components.
+
+### AI Assistance & Verification
+
+Although AI helped speed up parts of the process, I manually reviewed, tested, and verified the generated code before using it. I also modified and simplified AI-generated outputs wherever needed to make sure the final solution matched the assignment requirements and maintained good code quality.
